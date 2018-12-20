@@ -6,7 +6,7 @@
 #import <RCTText/RCTUITextField.h>
 #import "RNTextInputMask.h"
 
-@import InputMask;
+#import <RNTextInputMask/RNTextInputMask-Swift.h>
 
 @implementation RNTextInputMask {
     NSMutableDictionary *masks;

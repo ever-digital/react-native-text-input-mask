@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name          = "RNTextInputMask"
-  s.version       = "0.9.0"
-  s.source_files  = "ios/RNTextInputMask/RNTextInputMask/*.{h,m}", "ios/RNTextInputMask/InputMask/InputMask/**/*.{h,swift}"
+  s.version       = "1.0.1"
+  s.source_files  = "ios/*.{h,m}", "ios/InputMask/InputMask/**/*.{h,swift}"
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.authors       = { "Gleb Mikheenko" => "glebmikheenk0o@gmail.com" }
